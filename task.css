@@ -1,0 +1,61 @@
+img{
+    display: block;
+    border: 1px solid black;
+    background:linear-gradient(red,yellow,purple,violet);
+    border-radius: 10px;
+    width:100px;
+    height: 100px;
+    /* margin:100px; */
+
+}
+.img1{
+    animation-duration:3s;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    animation-name:rollimg1 ;
+    margin-left:200px;
+    
+    
+}
+@keyframes rollimg1{
+
+    
+    0%{
+        transform: translateX(10vw) rotate(270deg);
+    }
+    50%{
+        transform: translateX(70vw) rotate(180deg);
+    }
+    100%{
+        transform: translateX(15vw) rotate(360deg);
+
+    }
+   
+
+}
+.img2{
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name:rollimg2 ;
+    margin-top: 50px;
+    /* margin-left: 200px; */
+    
+
+}
+@keyframes rollimg2{
+    0%{
+        transform: translateY(10vh) rotate(270deg);
+    }
+    50%{
+        transform: translateY(70vh) rotate(180deg);
+    }
+    100%{
+        transform: translateY(5vh) rotate(360deg);
+
+    }
+}
+
+   
